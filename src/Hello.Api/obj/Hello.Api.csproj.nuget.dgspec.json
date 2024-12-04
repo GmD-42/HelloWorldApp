@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/tmp/tmp.c8YR4k47Ch/HelloWorldApp/src/Hello.Api/Hello.Api.csproj": {}
+    "/tmp/teste/HelloWorldApp/src/Hello.Api/Hello.Api.csproj": {}
   },
   "projects": {
-    "/tmp/tmp.c8YR4k47Ch/HelloWorldApp/src/Hello.Api/Hello.Api.csproj": {
+    "/tmp/teste/HelloWorldApp/src/Hello.Api/Hello.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/tmp/tmp.c8YR4k47Ch/HelloWorldApp/src/Hello.Api/Hello.Api.csproj",
+        "projectUniqueName": "/tmp/teste/HelloWorldApp/src/Hello.Api/Hello.Api.csproj",
         "projectName": "Hello.Api",
-        "projectPath": "/tmp/tmp.c8YR4k47Ch/HelloWorldApp/src/Hello.Api/Hello.Api.csproj",
+        "projectPath": "/tmp/teste/HelloWorldApp/src/Hello.Api/Hello.Api.csproj",
         "packagesPath": "/home/propi/.nuget/packages/",
-        "outputPath": "/tmp/tmp.c8YR4k47Ch/HelloWorldApp/src/Hello.Api/obj/",
+        "outputPath": "/tmp/teste/HelloWorldApp/src/Hello.Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/propi/.nuget/NuGet/NuGet.Config"
@@ -32,7 +32,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -48,7 +54,7 @@
             },
             "System.Text.Json": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.4, )"
             }
           },
           "imports": [
@@ -65,7 +71,15 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.8, 8.0.8]"
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
             }
           ],
           "frameworkReferences": {
@@ -76,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

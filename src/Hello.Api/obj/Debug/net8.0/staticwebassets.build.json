@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "RyW9ZDr2NJ9kAmn2t8aQndCXMxTg/t2njG131YPHm+c=",
+  "Hash": "oSxKuHI5+i0CkYdlMJJjlAJiu8TzRTYnvxExLy6w+hY=",
   "Source": "Hello.Api",
   "BasePath": "_content/Hello.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }
